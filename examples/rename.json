@@ -1,0 +1,77 @@
+{
+  "renameId": "asset-refresh",
+  "title": "Asset filenames",
+  "context": "Frozen folder export; choose intended names.",
+  "namespace": [
+    {
+      "id": "alpha",
+      "name": "a.txt"
+    },
+    {
+      "id": "beta",
+      "name": "b.txt"
+    },
+    {
+      "id": "gamma",
+      "name": "c.txt"
+    },
+    {
+      "id": "delta",
+      "name": "d.txt"
+    },
+    {
+      "id": "note",
+      "name": "notes.txt"
+    },
+    {
+      "id": "reserved",
+      "name": "pingroom-tmp-0001"
+    }
+  ],
+  "files": [
+    {
+      "id": "alpha",
+      "source": "a.txt",
+      "targets": [
+        {
+          "id": "target1",
+          "name": "b.txt"
+        },
+        {
+          "id": "target2",
+          "name": "notes.txt"
+        }
+      ]
+    },
+    {
+      "id": "beta",
+      "source": "b.txt",
+      "targets": [
+        {
+          "id": "target1",
+          "name": "a.txt"
+        }
+      ]
+    },
+    {
+      "id": "gamma",
+      "source": "c.txt",
+      "targets": [
+        {
+          "id": "target1",
+          "name": "d.txt"
+        }
+      ]
+    },
+    {
+      "id": "delta",
+      "source": "d.txt",
+      "targets": [
+        {
+          "id": "target1",
+          "name": "e.txt"
+        }
+      ]
+    }
+  ]
+}

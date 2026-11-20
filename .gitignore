@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+/.pingroom/
+/.renames/
+/config.json
+/rename.json
+.DS_Store
